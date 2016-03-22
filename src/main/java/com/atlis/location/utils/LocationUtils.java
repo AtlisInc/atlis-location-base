@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.atlis.location.nominatim.utils;
+package com.atlis.location.utils;
 
 import com.atlis.location.model.impl.BoundingBox;
 import com.atlis.location.model.impl.MapPoint;
