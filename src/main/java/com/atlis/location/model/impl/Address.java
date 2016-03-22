@@ -20,6 +20,7 @@ public class Address extends LocationModelAbs{
     private String road;
     private String postcode;
     private String country_code;
+    private String countryCode;
     private String neighbourhood;
     private String country;
     private String city;
@@ -27,6 +28,7 @@ public class Address extends LocationModelAbs{
     private String housenumber;
     private String conscriptionnumber;
     private String street;
+    private String displayName;
     private String place;
     private String hamlet;
     private String town;
@@ -193,4 +195,21 @@ public class Address extends LocationModelAbs{
     public void setCity(String city) {
         this.city = city;
     }
+
+    public String getDisplayName() {
+        return displayName;
+    }
+
+    public void setDisplayName(String displayName) {
+        this.displayName = displayName;
+    }
+
+    public String getCountryCode() {
+        return countryCode;
+    }
+
+    public void setCountryCode(String countryCode) {
+        this.countryCode = countryCode;
+    }
+    
 }
